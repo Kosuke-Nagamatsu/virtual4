@@ -4,7 +4,7 @@ lock '3.6.0'
 set :application, 'achieve'
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://github.com/Kosuke-Nagamatsu/test.git'
+set :repo_url, 'https://github.com/Kosuke-Nagamatsu/test'
 # deployするブランチ。デフォルトでmainを使用している場合、masterをmainに変更してください。
 set :branch, ENV['BRANCH'] || 'master'
 # deploy先のディレクトリ。
